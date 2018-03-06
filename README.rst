@@ -12,8 +12,9 @@ Using
 
 Add the bot to any group and it will echo all your messages to this group.
 
-.. image:: https://github.com/maxgrechnev/pretender-bot/blob/master/pics/using.png?raw=true
+.. image:: https://github.com/maxgrechnev/pretender-bot/blob/master/screenshots/using.png?raw=true
 	:align: center
+	:scale: 70 %
 	:alt: Screenshot
 
 ----------
