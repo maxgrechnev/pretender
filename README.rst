@@ -1,33 +1,46 @@
 ======================
 Pretender Telegram Bot
 ======================
+
 This simple bot will help you to be anyone you want.
+
 Try it right now and feel yourself `Albert Einstein <https://t.me/IamAlbertEinsteinBot>`_, or create your own pretender.
 
 -----
 Using
 -----
+
 Add the bot to any group and it will echo all your messages to this group.
-.. image:: https://github.com/maxgrechnev/pretender-bot/blob/master/png/using.png?raw=true
+
+.. image:: https://github.com/maxgrechnev/pretender-bot/blob/master/pics/using.png?raw=true
+	:align: center
+	:alt: Screenshot
 
 ----------
 Installing
 ----------
+
 First, create your own pretender bot here `@BotFather <https://t.me/BotFather>`_ and copy its API token.
 
 Next, install `pip <https://pip.pypa.io/en/stable/installing/>`_ in your server (it must have python pre-installed):
+
 .. code:: shell
+
 	$ cd /tmp
 	$ wget https://bootstrap.pypa.io/get-pip.py
 	$ sudo python get-pip.py
 	$ rm /tmp/get-pip.py
 
 Then, install `python-telegram-bot <https://github.com/python-telegram-bot/python-telegram-bot>`_ module using pip:
+
 .. code:: shell
+
 	$ sudo pip install python-telegram-bot --upgrade
 
 Finally, install a bot daemon from source:
+
 .. code:: shell
+
 	$ API_TOKEN=<your API token goes here>
 	$ cd /tmp
 	$ wget https://github.com/maxgrechnev/pretender-bot/blob/master/pretender-bot.py
