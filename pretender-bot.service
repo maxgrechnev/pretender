@@ -1,0 +1,9 @@
+[Unit]
+Description=Pretender Telegram Bot
+After=network.target
+
+[Service]
+ExecStart=/usr/share/pretender-bot/pretender-bot.py
+
+[Install]
+WantedBy=multi-user.target
