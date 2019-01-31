@@ -1,1 +1,1 @@
-worker: python pretender-bot.py
+web: python pretender-bot.py
