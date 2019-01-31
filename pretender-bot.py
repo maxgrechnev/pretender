@@ -75,7 +75,7 @@ def error(bot, update, error):
 		bot.send_message(update.message.from_user.id, msg)
 
 def start(bot, update):
-	update.message.reply_text(u'Hello, {0}!\nMy name is Albert Einstein. Do you wanna have fun? Just add me to any group.\nAbout me: /help'.format(update.message.from_user.first_name))
+	update.message.reply_text(u'Hello, {0}!\nMy name is {1}. Do you wanna have fun? Just add me to any group.\nAbout me: /help'.format(update.message.from_user.first_name, bot_user.first_name))
 
 def help(bot, update):
 	update.message.reply_text(u'I\'m open source. You can create your own pretender bot and be anyone you want. See: {0}'.format(GIT_REPO_URL))
