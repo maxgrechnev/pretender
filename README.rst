@@ -32,11 +32,11 @@ Next, install `pip <https://pip.pypa.io/en/stable/installing/>`_ in your server 
 	$ sudo python get-pip.py
 	$ rm /tmp/get-pip.py
 
-Then, install `python-telegram-bot <https://github.com/python-telegram-bot/python-telegram-bot>`_ module using pip:
+Then, install needed dependencies using pip:
 
 .. code:: shell
 
-	$ sudo pip install python-telegram-bot --upgrade
+	$ sudo pip install -r https://github.com/maxgrechnev/pretender-bot/raw/master/requirements.txt
 
 Finally, install a bot daemon from source:
 
@@ -44,8 +44,8 @@ Finally, install a bot daemon from source:
 
 	$ API_TOKEN=<your API token goes here>
 	$ cd /tmp
-	$ wget https://github.com/maxgrechnev/pretender-bot/blob/master/pretender-bot.py
-	$ wget https://github.com/maxgrechnev/pretender-bot/blob/master/pretender-bot.service
+	$ wget https://github.com/maxgrechnev/pretender-bot/raw/master/pretender-bot.py
+	$ wget https://github.com/maxgrechnev/pretender-bot/raw/master/pretender-bot.service
 	$ sudo mkdir /etc/pretender-bot
 	$ sudo mkdir /usr/share/pretender-bot
 	$ sudo mkdir /var/log/pretender-bot
